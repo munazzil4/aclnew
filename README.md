@@ -14,8 +14,11 @@ Laravel project to apply CRUD functionalities on users.
 
 9. **Important**: \
 Generate permission ``php artisan db:seed --class=PermissionTableSeeder`` \
+
 Generate Admin using ``php artisan db:seed --class=CreateAdminUserSeeder `` \
+
 email: "admin@gmail.com", password: "12345678"
+
 10. Run `` php artisan serve `` to open the project
 
 
